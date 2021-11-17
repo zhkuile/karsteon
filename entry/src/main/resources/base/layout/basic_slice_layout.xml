@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:width="match_parent"
+                   ohos:height="match_parent"
+                   ohos:orientation="vertical"
+                   ohos:background_element="#CCCCCC"
+                   ohos:padding="32"
+        >
+ <Button
+        ohos:id="$+id:button_present_slice"
+        ohos:width="match_parent"
+        ohos:height="40vp"
+        ohos:text_alignment="center"
+        ohos:background_element="#00FFFF"
+        ohos:text_size="30vp"
+        ohos:text="导航到另一个Ability Slice"
+        />
+  <Text
+          ohos:id="$+id:text_result"
+          ohos:width="match_parent"
+          ohos:height="match_parent"
+          ohos:text_alignment="center"
+          ohos:text_size="60vp"
+          ></Text>
+</DirectionalLayout>

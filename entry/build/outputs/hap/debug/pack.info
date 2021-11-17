@@ -1,0 +1,59 @@
+{
+    "summary": {
+        "app": {
+            "bundleName": "com.karsteon.karsteon",
+            "version": {
+                "code": 1000000,
+                "name": "1.0.0"
+            }
+        },
+        "modules": [
+            {
+                "mainAbility": "com.karsteon.karsteon.TargetAbility",
+                "deviceType": [
+                    "phone"
+                ],
+                "abilities": [
+                    {
+                        "visible": true,
+                        "name": "com.karsteon.karsteon.TargetAbility",
+                        "label": "$string:entry_MainAbility"
+                    },
+                    {
+                        "name": "com.karsteon.karsteon.LaunchTypeAbility",
+                        "label": "$string:start_page"
+                    },
+                    {
+                        "name": "com.karsteon.karsteon.TestLaunchTypeAbility",
+                        "label": "$string:start_page"
+                    },
+                    {
+                        "name": "com.unitymarvel.demo.ability.BasicSliceAbility",
+                        "label": "$string:ability_slice"
+                    }
+                ],
+                "distro": {
+                    "moduleType": "entry",
+                    "installationFree": true,
+                    "deliveryWithInstall": true,
+                    "moduleName": "entry"
+                },
+                "apiVersion": {
+                    "compatible": 5,
+                    "releaseType": "Release",
+                    "target": 5
+                }
+            }
+        ]
+    },
+    "packages": [
+        {
+            "deviceType": [
+                "phone"
+            ],
+            "moduleType": "entry",
+            "deliveryWithInstall": true,
+            "name": "entry-debug-rich-unsigned"
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "app": {
+        "bundleName": "com.karsteon.karsteon",
+        "vendor": "karsteon",
+        "apiVersion": {
+            "compatible": 5,
+            "target": 5,
+            "releaseType": "Release"
+        },
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        
+    },
+    "module": {
+        "name": ".MyApplication",
+        "deviceType": [
+            "phone"
+        ],
+        "distro": {
+            "deliveryWithInstall": true,
+            "moduleName": "entry",
+            "moduleType": "entry",
+            "installationFree": true
+        },
+        "abilities": [
+            {
+                "name": "com.karsteon.karsteon.TargetAbility",
+                "description": "$string:mainability_description",
+                "icon": "$media:icon",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "landscape",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.system.home"
+                        ],
+                        "entities": [
+                            "entity.system.home"
+                        ]
+                    }
+                ],
+                "homeAbility": true
+            },
+            {
+                "name": "com.karsteon.karsteon.LaunchTypeAbility",
+                "icon": "$media:icon",
+                "label": "$string:start_page",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "landscape",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.harmonyos.demo.ability.launchtype"
+                        ]
+                    }
+                ],
+                "homeAbility": false
+            },
+            {
+                "name": "com.karsteon.karsteon.TestLaunchTypeAbility",
+                "icon": "$media:icon",
+                "label": "$string:start_page",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "landscape",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.harmonyos.demo.ability.testlaunchtype"
+                        ]
+                    }
+                ],
+                "homeAbility": false
+            },
+            {
+                "name": "com.unitymarvel.demo.ability.BasicSliceAbility",
+                "icon": "$media:icon",
+                "label": "$string:ability_slice",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "portrait",
+                "skills": [
+                    {
+                        "actions": [
+                            "action.harmonyos.demo.ability.basicslice"
+                        ]
+                    }
+                ],
+                "homeAbility": false
+            }
+        ],
+        "mainAbility": "com.karsteon.karsteon.TargetAbility",
+        "package": "com.karsteon.karsteon"
+    }
+}

@@ -1,0 +1,91 @@
+{
+  "app": {
+    "bundleName": "com.karsteon.karsteon",
+    "vendor": "karsteon",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.karsteon.karsteon",
+    "name": ".MyApplication",
+    "mainAbility": "com.karsteon.karsteon.TargetAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "name": "com.karsteon.karsteon.TargetAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "actions": [
+              "action.harmonyos.demo.ability.launchtype"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "name": "com.karsteon.karsteon.LaunchTypeAbility",
+        "icon": "$media:icon",
+        "label": "$string:start_page",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "actions": [
+              "action.harmonyos.demo.ability.testlaunchtype"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "name": "com.karsteon.karsteon.TestLaunchTypeAbility",
+        "icon": "$media:icon",
+        "label": "$string:start_page",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "actions": [
+              "action.harmonyos.demo.ability.basicslice"
+            ]
+          }
+        ],
+        "orientation": "portrait",
+        "name": "com.unitymarvel.demo.ability.BasicSliceAbility",
+        "icon": "$media:icon",
+        "label": "$string:ability_slice",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

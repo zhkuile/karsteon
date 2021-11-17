@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    }
+    ,{
+      "name" : "start_page",
+      "value" : "Page Ability的启动类型"
+    }
+  ,{
+      "name" : "ability_slice",
+      "value" : "abilityslice之间传递参数"
+    }
+  ]
+}
