@@ -9,21 +9,28 @@ package com.karsteon.karsteon;
 public final class ResourceTable {
     public static final int Graphic_background_ability_main = 0x1000006;
 
-    public static final int Id_button_close = 0x100000d;
-    public static final int Id_button_close_slice = 0x100000e;
-    public static final int Id_button_present_slice = 0x100000f;
-    public static final int Id_button_start_ability = 0x1000010;
-    public static final int Id_listcontainer = 0x1000011;
-    public static final int Id_text = 0x1000012;
-    public static final int Id_text_helloworld = 0x1000013;
-    public static final int Id_text_result = 0x1000014;
+    public static final int Id_button1 = 0x100000e;
+    public static final int Id_button2 = 0x100000f;
+    public static final int Id_button3 = 0x1000010;
+    public static final int Id_button4 = 0x1000011;
+    public static final int Id_button5 = 0x1000012;
+    public static final int Id_button6 = 0x1000013;
+    public static final int Id_button_close = 0x1000014;
+    public static final int Id_button_close_slice = 0x1000015;
+    public static final int Id_button_present_slice = 0x1000016;
+    public static final int Id_button_start_ability = 0x1000017;
+    public static final int Id_listcontainer = 0x1000018;
+    public static final int Id_text = 0x1000019;
+    public static final int Id_text_helloworld = 0x100001a;
+    public static final int Id_text_result = 0x100001b;
 
     public static final int Layout_ability_main = 0x1000007;
     public static final int Layout_basic_slice_layout = 0x1000008;
-    public static final int Layout_launch_type_layout = 0x1000009;
-    public static final int Layout_list_layout = 0x100000a;
-    public static final int Layout_result_slice_layout = 0x100000b;
-    public static final int Layout_target_layout = 0x100000c;
+    public static final int Layout_directional_layout_demo = 0x1000009;
+    public static final int Layout_launch_type_layout = 0x100000a;
+    public static final int Layout_list_layout = 0x100000b;
+    public static final int Layout_result_slice_layout = 0x100000c;
+    public static final int Layout_target_layout = 0x100000d;
 
     public static final int Media_icon = 0x1000005;
 

@@ -9,7 +9,7 @@
         },
         "modules": [
             {
-                "mainAbility": "com.karsteon.karsteon.TargetAbility",
+                "mainAbility": "com.karsteon.karsteon.layout.ability.TestAbility",
                 "deviceType": [
                     "phone"
                 ],
@@ -28,7 +28,11 @@
                         "label": "$string:start_page"
                     },
                     {
-                        "name": "com.unitymarvel.demo.ability.BasicSliceAbility",
+                        "name": "com.karsteon.karsteon.abilityslice.ability.BasicSliceAbility",
+                        "label": "$string:ability_slice"
+                    },
+                    {
+                        "name": "com.karsteon.karsteon.layout.ability.TestAbility",
                         "label": "$string:ability_slice"
                     }
                 ],

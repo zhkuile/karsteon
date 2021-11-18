@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PositionLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFA21414"
+    ohos:padding="32">
+
+    <Button
+        ohos:id="$+id:button1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#FF38B0B0"
+        ohos:text="按钮1"
+        ohos:text_size="30vp"/>
+
+    <Button
+        ohos:id="$+id:button2"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#FFFF00F2"
+        ohos:text="按钮2"
+        ohos:text_size="30vp"/>
+
+
+    <Button
+        ohos:id="$+id:button3"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="#00FFFF"
+        ohos:text="按钮3"
+        ohos:text_size="30vp"/>
+
+</PositionLayout>

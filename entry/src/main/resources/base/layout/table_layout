@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#CCCCCC"
+    ohos:column_count="2"
+    ohos:row_count="3">
+
+<Image
+    ohos:height="120vp"
+    ohos:width="120vp"
+    ohos:bottom_margin="5vp"
+    ohos:image_src="$media:device"
+    ohos:left_margin="25vp"
+    ohos:right_margin="25vp"
+    ohos:scale_mode="zoom_center"
+    />
+
+    <Image
+
+        ohos:height="120vp"
+        ohos:width="120vp"
+        ohos:bottom_margin="5vp"
+        ohos:image_src="$media:multimedia"
+        ohos:left_margin="25vp"
+        ohos:right_margin="25vp"
+        ohos:scale_mode="zoom_center"
+        />
+    <Image
+
+        ohos:height="120vp"
+        ohos:width="120vp"
+        ohos:bottom_margin="5vp"
+        ohos:image_src="$media:network"
+        ohos:left_margin="25vp"
+        ohos:right_margin="25vp"
+        ohos:scale_mode="zoom_center"
+        />
+
+    <Image
+
+        ohos:height="120vp"
+        ohos:width="120vp"
+        ohos:bottom_margin="5vp"
+        ohos:image_src="$media:storage"
+        ohos:left_margin="25vp"
+        ohos:right_margin="25vp"
+        ohos:scale_mode="zoom_center"
+        />
+
+    <Image
+
+        ohos:height="120vp"
+        ohos:width="120vp"
+        ohos:bottom_margin="5vp"
+        ohos:image_src="$media:others"
+        ohos:left_margin="25vp"
+        ohos:right_margin="25vp"
+        ohos:scale_mode="zoom_center"
+        />
+
+    <Image
+
+        ohos:height="120vp"
+        ohos:width="120vp"
+        ohos:bottom_margin="5vp"
+        ohos:image_src="$media:components"
+        ohos:left_margin="25vp"
+        ohos:right_margin="25vp"
+        ohos:scale_mode="zoom_center"
+        />
+
+</TableLayout>
+

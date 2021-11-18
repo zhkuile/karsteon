@@ -29,7 +29,7 @@
                         ]
                     }
                 ],
-                "orientation": "landscape",
+                "orientation": "unspecified",
                 "descriptionId": 16777219,
                 "labelId": 16777217,
                 "icon": "$media:icon",
@@ -88,7 +88,18 @@
                 "orientation": "portrait",
                 "labelId": 16777216,
                 "icon": "$media:icon",
-                "name": "com.unitymarvel.demo.ability.BasicSliceAbility",
+                "name": "com.karsteon.karsteon.abilityslice.ability.BasicSliceAbility",
+                "label": "$string:ability_slice",
+                "type": "page",
+                "homeAbility": false,
+                "launchType": "standard"
+            },
+            {
+                "iconId": 16777221,
+                "orientation": "portrait",
+                "labelId": 16777216,
+                "icon": "$media:icon",
+                "name": "com.karsteon.karsteon.layout.ability.TestAbility",
                 "label": "$string:ability_slice",
                 "type": "page",
                 "homeAbility": false,
@@ -98,7 +109,7 @@
         "deviceType": [
             "phone"
         ],
-        "mainAbility": "com.karsteon.karsteon.TargetAbility",
+        "mainAbility": "com.karsteon.karsteon.layout.ability.TestAbility",
         "distro": {
             "moduleType": "entry",
             "installationFree": true,

@@ -11,7 +11,7 @@
   "module": {
     "package": "com.karsteon.karsteon",
     "name": ".MyApplication",
-    "mainAbility": "com.karsteon.karsteon.TargetAbility",
+    "mainAbility": "com.karsteon.karsteon.layout.ability.TestAbility",
     "deviceType": [
       "phone"
     ],
@@ -33,7 +33,7 @@
             ]
           }
         ],
-        "orientation": "landscape",
+        "orientation": "unspecified",
         "name": "com.karsteon.karsteon.TargetAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
@@ -80,7 +80,15 @@
           }
         ],
         "orientation": "portrait",
-        "name": "com.unitymarvel.demo.ability.BasicSliceAbility",
+        "name": "com.karsteon.karsteon.abilityslice.ability.BasicSliceAbility",
+        "icon": "$media:icon",
+        "label": "$string:ability_slice",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "portrait",
+        "name": "com.karsteon.karsteon.layout.ability.TestAbility",
         "icon": "$media:icon",
         "label": "$string:ability_slice",
         "type": "page",

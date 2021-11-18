@@ -3,7 +3,7 @@
   <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="29"/>
   <application android:usesCleartextTraffic="false" android:icon="@drawable/icon" android:directBootAware="false" android:allowBackup="false" android:label="@string/entry_MainAbility" android:name="com.karsteon.karsteon.ShellMyApplication" android:persistent="false" android:debuggable="true">
     <meta-data android:value="true" android:name="permZA"/>
-    <activity android:icon="@drawable/icon" android:label="@string/entry_MainAbility" android:screenOrientation="landscape" android:name="com.karsteon.karsteon.TargetAbilityShellActivity" android:launchMode="standard" android:exported="true"/>
+    <activity android:icon="@drawable/icon" android:label="@string/entry_MainAbility" android:screenOrientation="unspecified" android:name="com.karsteon.karsteon.TargetAbilityShellActivity" android:launchMode="standard" android:exported="true"/>
     <activity android:icon="@drawable/icon" android:label="@string/start_page" android:screenOrientation="landscape" android:name="com.karsteon.karsteon.LaunchTypeAbilityShellActivity" android:launchMode="standard">
       <intent-filter>
         <action android:name="action.harmonyos.demo.ability.launchtype"/>
@@ -14,10 +14,11 @@
         <action android:name="action.harmonyos.demo.ability.testlaunchtype"/>
       </intent-filter>
     </activity>
-    <activity android:icon="@drawable/icon" android:label="@string/ability_slice" android:screenOrientation="portrait" android:name="com.unitymarvel.demo.ability.BasicSliceAbilityShellActivity" android:launchMode="standard">
+    <activity android:icon="@drawable/icon" android:label="@string/ability_slice" android:screenOrientation="portrait" android:name="com.karsteon.karsteon.abilityslice.ability.BasicSliceAbilityShellActivity" android:launchMode="standard">
       <intent-filter>
         <action android:name="action.harmonyos.demo.ability.basicslice"/>
       </intent-filter>
     </activity>
+    <activity android:icon="@drawable/icon" android:label="@string/ability_slice" android:screenOrientation="portrait" android:name="com.karsteon.karsteon.layout.ability.TestAbilityShellActivity" android:launchMode="standard"/>
   </application>
 </manifest>

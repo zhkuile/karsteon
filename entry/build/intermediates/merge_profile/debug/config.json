@@ -34,7 +34,7 @@
                 "label": "$string:entry_MainAbility",
                 "type": "page",
                 "launchType": "standard",
-                "orientation": "landscape",
+                "orientation": "unspecified",
                 "skills": [
                     {
                         "actions": [
@@ -80,7 +80,7 @@
                 "homeAbility": false
             },
             {
-                "name": "com.unitymarvel.demo.ability.BasicSliceAbility",
+                "name": "com.karsteon.karsteon.abilityslice.ability.BasicSliceAbility",
                 "icon": "$media:icon",
                 "label": "$string:ability_slice",
                 "type": "page",
@@ -94,9 +94,18 @@
                     }
                 ],
                 "homeAbility": false
+            },
+            {
+                "name": "com.karsteon.karsteon.layout.ability.TestAbility",
+                "icon": "$media:icon",
+                "label": "$string:ability_slice",
+                "type": "page",
+                "launchType": "standard",
+                "orientation": "portrait",
+                "homeAbility": false
             }
         ],
-        "mainAbility": "com.karsteon.karsteon.TargetAbility",
+        "mainAbility": "com.karsteon.karsteon.layout.ability.TestAbility",
         "package": "com.karsteon.karsteon"
     }
 }
